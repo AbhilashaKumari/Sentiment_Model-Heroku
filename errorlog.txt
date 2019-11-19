@@ -1,0 +1,373 @@
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 19, in get_pos_neg
+    return (result['compound'],[sorted_result[0], sorted_result[-1]])
+KeyError: 'compound'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 17, in get_pos_neg
+    result = analyzer.polarity_scores(sentences)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\vaderSentiment\vaderSentiment.py", line 248, in polarity_scores
+    text_token_list = text.split()
+AttributeError: 'list' object has no attribute 'split'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 17, in get_pos_neg
+    result = analyzer.polarity_scores(sentences)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\vaderSentiment\vaderSentiment.py", line 248, in polarity_scores
+    text_token_list = text.split()
+AttributeError: 'list' object has no attribute 'split'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 18, in get_pos_neg
+    print("{:-<40} {}".format(sentences, str(result)))
+TypeError: unsupported format string passed to list.__format__
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 24, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 24, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 53, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 19, in get_pos_neg
+    print(result.sentiment.compound)
+AttributeError: 'dict' object has no attribute 'sentiment'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 54, in analysis
+    analyzed_text=text_analysis.Sentiment(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 32, in Sentiment
+    return sentiment.Sentiment.polarity
+AttributeError: 'TextBlob' object has no attribute 'Sentiment'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 54, in analysis
+    analyzed_text=text_analysis.Sentiment(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 32, in Sentiment
+    return sentiment.Sentiment.polarity
+AttributeError: 'TextBlob' object has no attribute 'Sentiment'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 54, in analysis
+    analyzed_text=text_analysis.Sentiment(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 32, in Sentiment
+    return sentiment.Sentiment.polarity
+AttributeError: 'TextBlob' object has no attribute 'Sentiment'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer-API/sa.py", line 54, in analysis
+    analyzed_text=text_analysis.Sentiment(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer-API\text_analysis.py", line 32, in Sentiment
+    return sentiment.Sentiment.polarity
+AttributeError: 'TextBlob' object has no attribute 'Sentiment'
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 64, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 64, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 64, in analysis
+    analyzed_sent = text_analysis.get_pos_neg(file_contents)
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in get_pos_neg
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+  File "C:\Users\Abhilasha\Sentiment-Analyzer\text_analysis.py", line 21, in <lambda>
+    sorted_result = sorted(result, key=lambda x: result[x]['compound'])
+TypeError: 'float' object is not subscriptable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 65, in analysis
+    pos_sent = analyzed_sent[-1]
+KeyError: -1
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 65, in analysis
+    pos_sent = analyzed_sent[-1]
+KeyError: -1
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Abhilasha\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Abhilasha/Sentiment-Analyzer/sa.py", line 65, in analysis
+    pos_sent = analyzed_sent[-1]
+KeyError: -1
